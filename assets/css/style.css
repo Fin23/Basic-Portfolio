@@ -6,6 +6,36 @@ body{
     font-weight: 400;
     color: black;
 }
+h1 {
+    font-size: 36px;
+}
+header h1 {
+    text-align: center;
+}
+p, li {
+    font-family: helvetica;
+    font-size: 20px;
+    color:black;
+}
+/*footer */
+footer {
+    background: #565656;
+    height: 200px;
+    color: lightgray;
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li a {
+    color: lightgray;
+    text-decoration: none;
+}
+footer h1 p {
+    color: lightgray;
+}
+
+
 /* nav bar styles*/
 nav ul {
     list-style-type: none;
@@ -19,25 +49,63 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-/*mountain immage*/
+/*Home page styles*/
 .hero-image img {
   object-fit: cover;
   width: 100%;
   height: 600px;
+  opacity: .7;
+}
+.hero-image-container {
+    object-fit: cover;
+    height:600px;
+    background: #d7cec7;
+   
 }
 .content-image img {
     object-fit: cover;
     width: 100%;
-    height: 400px
+    height: 400px;
+    opacity: .7;
+}
+.content-image-container {
+    object-fit: cover;
+    height: 400px;
+    margin-top: 10px;
+    background: #76232f;
 }
 .content-3-columns {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
-    background:rgba(103, 128, 159, 1) ;
+    background: ;
 }
 
+.left-column-home {
+    background:rgba(115, 101, 152, 1);
+    height: 350px;
+    padding: 4px ;
 
+}
+.middle-column-home {
+    background: rgba(115, 101, 152, 1);
+    height: 350px;
+    padding: 4px;
+}
+
+.right-column-home {
+    background: #76232f;
+    height: 350px;
+    padding: 4px;
+    opacity: .8;
+}
+
+.right-column-row3 {
+ background: #d7cec7;
+ height: ;
+}
+
+/*extra code below not needed at this time 6/4/19*/
 .button{
     background-color:rgb(223, 18, 189);
     color:#fff;
@@ -206,7 +274,8 @@ nav ul li a {
 .six {
 	width: 49%; /* This div spans six columns (the entire row)*/
 	float: left;
-	margin-left: 2%;
+    margin-left: 2%;
+    
 }
 .five {
 	width: 40.5%; /* This div spans five columns */
