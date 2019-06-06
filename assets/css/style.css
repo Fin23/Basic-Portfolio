@@ -108,10 +108,13 @@ nav ul li a {
 
 .art-flyer img {
     object-fit: cover;
-    height:348px;
-    width: 433px;
-    opacity: .7;
+    height:300px;
+    width: 400px;
     
+    
+}
+.first-column-p {
+    padding-top: 41px;
 }
 
 .hero-image-container {
